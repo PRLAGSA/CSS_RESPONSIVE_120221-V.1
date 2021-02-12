@@ -45,7 +45,7 @@ header {
   margin: 0 auto;
   width:320px;
 }
-/* .iiicon {
+ .iiicon {
   display: grid;
 
   position: relative;
@@ -55,7 +55,7 @@ header {
   top: 43px;
 
   z-index: 5;
-} */
+} 
 .menu {
   display: none;
 }
@@ -252,6 +252,16 @@ background-color: red;
   top: -1px;
 }
 
+.greekIcon {
+  display: flex;
+  position: absolute;
+  left: 148px;
+  top: -50px;
+}
+.wrap {
+  display: none;
+}
+
 .imageContainer {
   display: none;
   text-align: center;
@@ -291,10 +301,15 @@ background-color: red;
 .button {
   display: none;
 } 
-
-.iiicon {
+ .wrap {
   display: none;
-}
+  margin-top: 0px;
+} 
+
+/* .iiicon {
+  display: none;
+  width: 0px;
+} */
 .centered_image {
   display: none;
 }
@@ -411,7 +426,7 @@ display: none;
   .logoMobileclass {
     width: 100px;
     height: 100px;
-
+left: 15px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -504,6 +519,7 @@ display: none;
     padding-left: 0px;
     padding-top: 7px;
     color: white;
+  
   }
   .farenheit {
     display: flex;
@@ -518,7 +534,7 @@ display: none;
   .second {
     display: flex;
     height: 44px;
-    margin-right: 50px;
+    margin-right: 60px;
     /* padding-left: 20px; */
     /* margin-left: 1px;
     padding-top: 14px; */
@@ -526,6 +542,18 @@ display: none;
     .welcome {
   display: flex;
   justify-content: center;
+}
+.greekIcon {
+  display: flex;
+  position: absolute;
+  left: 181px;
+}
+  .wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 80px;
+  background-color: rgba(0, 128, 0, 0);
 }
 
 }
@@ -584,6 +612,7 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 9px;
   }
   .container {
     width: 600px;
@@ -842,6 +871,13 @@ display: none;
     padding: 0px;
     margin: 0px;
   }
+    .wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 80px;
+  background-color: rgba(0, 128, 0, 0);
+}
 }
 
 @media (min-width: 960px) {
@@ -1056,6 +1092,11 @@ display: none;
     top: -1px;
     background-color: green;
   }
+  .greekIcon {
+    display: flex;
+  position: absolute;
+  left: 181px;
+}
 
   .imageContainer {
     display: flex;  
@@ -1190,6 +1231,13 @@ display: none;
 
     color: #ffffff;
   }
+    .wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 80px;
+  background-color: rgba(0, 128, 0, 0);
+}
 }
 
 /* *------------------------------------------------------------------------------------------------------ */
@@ -1501,17 +1549,24 @@ display: none;
 
     color: #ffffff;
   }
-}
-
-/*-------------------------------------CIRCLE-------------------------------------------*/
-
-.wrap {
+  .wrap {
   display: flex;
   justify-content: center;
 
   margin-top: 80px;
   background-color: rgba(0, 128, 0, 0);
 }
+}
+
+/*-------------------------------------CIRCLE-------------------------------------------*/
+
+/* .wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 80px;
+  background-color: rgba(0, 128, 0, 0);
+} */
 /* 
 .centered_image {
   position: absolute;
@@ -1546,10 +1601,10 @@ display: none;
   z-index: 5;
 }
 
-.greekIcon {
+/* .greekIcon {
   position: absolute;
   left: 181px;
-}
+} */
 
 .welcome {
   position: relative;
