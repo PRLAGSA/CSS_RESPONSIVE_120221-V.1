@@ -1962,7 +1962,28 @@ display: none;
   background-color: slategray;
 }
 
+.containerSIDE {
+  display: grid;
+  width: 300px;
+}
+.barOne {
+  display: flex;
+  justify-content: space-between;
+}
 
+.flagAndArrow {
+  display: flex;
+}
+
+.closeXXX {
+  width: 24px;
+  height: 24px;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  top: 10px;
+}
 /* .apostoli {
   position: absolute;
   height: 30px;
