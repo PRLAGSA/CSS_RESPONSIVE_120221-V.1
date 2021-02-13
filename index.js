@@ -1,5 +1,5 @@
 function burgerOpen() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("sideMenuOne");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
