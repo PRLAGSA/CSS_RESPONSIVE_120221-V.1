@@ -362,7 +362,7 @@ background-color: red;
     display: flex;
     height: 44px;
     /* padding-top: 14px; */
-    padding-right: 120px;
+    padding-right: 113px;
     margin-left: 10px;
     padding-bottom: 12px;
     
@@ -425,6 +425,8 @@ background-color: red;
     top: 120px;
     padding-left: 22px;
     padding-right: 20px;
+    margin: 0 auto;
+    z-index: 1;
   }
    .wrap {
   display: flex;
@@ -610,9 +612,11 @@ display: none;
 
   .pan {
     display: flex;
+    
     position: absolute;
     top: 120px;
     padding-left: 3px;
+    margin: 0 auto;
   }
   .menu a {
     display: none;
@@ -1951,6 +1955,17 @@ display: none;
   z-index: 10;
   background-color: slategray;
 } */
+
+/* #wrapMenuMobile {
+  display: none;
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  background-color: orange;
+  z-index: 5;
+} */
+
+
 #sideMenuOne{
   display: none ;
   
@@ -1965,6 +1980,8 @@ display: none;
 .containerSIDE {
   display: grid;
   width: 300px;
+
+  
 }
 .barOne {
   display: flex;
@@ -2011,7 +2028,7 @@ display: none;
   display: none;
   position: absolute;
   right: 0px;
-  width: 300px;
+  width: 290px;
   height: 400px;
   margin: 0px;
   padding-top: 0px;
@@ -2019,6 +2036,16 @@ display: none;
   z-index: 20;
   top: 0px;
 }
+#sideMenuTHREE {
+  display: none;
+  width: 320px;
+  height: 520px;
+  background-color: red;
+  position: absolute;
+  z-index: 8;
+  right: 0px;
+}
+
 /* .apostoli {
   position: absolute;
   height: 30px;
