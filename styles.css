@@ -440,7 +440,7 @@ background-color: red;
    .welcome {
   display: flex;
   justify-content: center;
-  margin-top: -48px;
+  margin-top: -49px;
   font-size: 12px;
 }
 
@@ -457,7 +457,7 @@ background-color: red;
     line-height: 18px;
     color: rgb(255, 255, 255);
     left: 52px;
-    top: 11%;
+    top: 13%;
     bottom: 22.86%;
     font-size: 14px;
     text-align: center;
@@ -479,17 +479,33 @@ background-color: red;
 
     color: #ffffff;
   }
+   .perisotera {
+     display: flex;
+     justify-content: center;
+    font-family: "ssproReg";
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
     .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     width: 140px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #ffffff;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
     box-sizing: border-box;
     position: absolute;
-    left: 106px;
+    left: 90px;
     right: 23.9%;
-    top: 35%;
+    top: 39%;
     bottom: 0%;
     font-family: "ssproReg";
     font-weight: 700;
