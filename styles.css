@@ -337,6 +337,7 @@ background-color: red;
   }
   .containerMobile {
     width: 320px;
+   
   }
   .mobile {
     display: flex;
@@ -412,6 +413,7 @@ background-color: red;
   }
   .burger {
     position: absolute;
+   
     top: 10px;
     margin-left: 70px;
     background-color: rgba(255, 0, 0, 0);
@@ -1940,15 +1942,26 @@ display: none;
   color: #ffffff;
 }
 /*--------------------------SIDE_MENU_ONE---------------------------------------------*/
-#sideMenuOne {
-  display: none;
+/* #sideMenuOne:hover{
+  display: flex;
   width: 300px;
   height: 400px;
   position: absolute;
   margin-left: 20px;
   z-index: 10;
   background-color: slategray;
+} */
+#sideMenuOne{
+  display: none ;
+  
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+  background-color: slategray;
 }
+
 
 /* .apostoli {
   position: absolute;
