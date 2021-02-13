@@ -213,9 +213,9 @@ background-color: red;
   padding-right: 39px;
   position: relative; 
 }
-/* .apostoli {
+.apostoli {
   display: none;
-} */
+}
 
 .user {
   display: none;
@@ -298,9 +298,9 @@ background-color: red;
 .pan{
   display: none;
 }  
-/* .button {
+.button {
   display: none;
-}  */
+} 
  .wrap {
   display: none;
   margin-top: 0px;
@@ -413,7 +413,7 @@ background-color: red;
   .burger {
     position: absolute;
     top: 10px;
-    margin-left: 286px;
+    margin-left: 70px;
     background-color: rgba(255, 0, 0, 0);
     display: flex;
   }
@@ -457,7 +457,7 @@ background-color: red;
     line-height: 18px;
     color: rgb(255, 255, 255);
     left: 52px;
-    top: 13%;
+    top: 11%;
     bottom: 22.86%;
     font-size: 14px;
     text-align: center;
@@ -479,28 +479,17 @@ background-color: red;
 
     color: #ffffff;
   }
-  .perisotera {
-    font-family: "ssproReg";
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-  }
     .button {
     width: 140px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #ffffff;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: red;
     box-sizing: border-box;
     position: absolute;
-    left: 90px;
+    left: 106px;
     right: 23.9%;
-    top: 40%;
+    top: 35%;
     bottom: 0%;
     font-family: "ssproReg";
     font-weight: 700;
@@ -528,9 +517,7 @@ box-sizing: border-box;
 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
 }
  
-/* .mobile {
-  width: 320px;
-} */
+
   .second {
     display: flex;
     height: 44px;
@@ -642,10 +629,17 @@ display: none;
     background-color: rgba(0, 128, 128, 0);
     margin-top: 10px;
   }
-  .burger {
+  /* .burger {
     position: absolute;
     top: 10px;
     margin-left: 436px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+  } */
+   .burger {
+    position: absolute;
+    top: 10px;
+    margin-left: 70px;
     background-color: rgba(255, 0, 0, 0);
     display: flex;
   }
@@ -872,10 +866,17 @@ display: none;
     background-color: rgba(0, 128, 128, 0);
     margin-top: 10px;
   }
-  .burger {
+  /* .burger {
     position: absolute;
     top: 7px;
     margin-left: 579px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+  } */
+   .burger {
+    position: absolute;
+    top: 10px;
+    margin-left: 70px;
     background-color: rgba(255, 0, 0, 0);
     display: flex;
   }
