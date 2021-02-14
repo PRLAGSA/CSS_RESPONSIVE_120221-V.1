@@ -2245,7 +2245,8 @@ a:hover {
   line-height: 20px;
   text-align: center;
   color: #002868;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  padding-right: 20px;
 }
 
 .Aneksartitos {
@@ -2259,7 +2260,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .apotipoma {
