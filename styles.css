@@ -2233,7 +2233,7 @@ a:hover {
   font-family: "ssproBold";
   padding-right: 1px;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 .genikiApografi {
   position: absolute;
@@ -2245,7 +2245,7 @@ a:hover {
   line-height: 20px;
   text-align: center;
   color: #002868;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .Aneksartitos {
@@ -2259,7 +2259,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
-  margin-right: 5px;
+  margin-right: 18px;
 }
 
 .apotipoma {
@@ -2273,7 +2273,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .xiliometriki {
@@ -2288,7 +2288,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .container2 {
@@ -2541,7 +2541,7 @@ a:hover {
   font-weight: bold;
   color: #bf0a30;
   font-family: "ssproBold";
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .teliti {
@@ -2556,7 +2556,7 @@ a:hover {
   margin-right: 5px;
 }
 .newYork {
-  margin-right: 5px;
+  margin-right: 20px;
   position: absolute;
   top: 1240px;
   font-size: 18px;
