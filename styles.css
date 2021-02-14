@@ -2545,7 +2545,8 @@ a:hover {
   font-weight: bold;
   color: #bf0a30;
   font-family: "ssproBold";
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  padding-right: 20px;
 }
 
 .teliti {
@@ -2560,7 +2561,7 @@ a:hover {
   margin-right: 5px;
 }
 .newYork {
-  margin-right: 5px;
+  padding-right: 20px;
   position: absolute;
   top: 1240px;
   font-size: 18px;
