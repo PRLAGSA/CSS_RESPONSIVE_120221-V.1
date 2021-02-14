@@ -2233,6 +2233,7 @@ a:hover {
   font-family: "ssproBold";
   padding-right: 1px;
   text-align: center;
+  margin-right: 5px;
 }
 .genikiApografi {
   position: absolute;
@@ -2244,6 +2245,7 @@ a:hover {
   line-height: 20px;
   text-align: center;
   color: #002868;
+  margin-right: 5px;
 }
 
 .Aneksartitos {
@@ -2257,6 +2259,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
+  margin-right: 5px;
 }
 
 .apotipoma {
@@ -2270,6 +2273,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
+  margin-right: 5px;
 }
 
 .xiliometriki {
@@ -2284,6 +2288,7 @@ a:hover {
   line-height: 25px;
   text-align: center;
   color: #333333;
+  margin-right: 5px;
 }
 
 .container2 {
@@ -2303,10 +2308,11 @@ a:hover {
   top: 200px;
   left: 14px;
   width: 683px;
+  margin-right: 5px;
 }
 
 .backGround {
-  height: 744px;
+  height: 750px;
   background-color: #f8f8f8;
 }
 
@@ -2324,6 +2330,7 @@ a:hover {
   position: absolute;
   z-index: 2;
   top: 500px;
+  margin-right: 5px;
 }
 
 .roots {
@@ -2332,6 +2339,7 @@ a:hover {
   top: 600px;
   padding-right: 14px;
   padding-top: 1px;
+  margin-right: 5px;
 }
 
 .metrame {
@@ -2362,6 +2370,7 @@ a:hover {
   line-height: 50px;
   color: #bf0a30;
   text-align: center;
+  margin-right: 5px;
 }
 
 .textContainer1 {
@@ -2532,6 +2541,7 @@ a:hover {
   font-weight: bold;
   color: #bf0a30;
   font-family: "ssproBold";
+  margin-right: 5px;
 }
 
 .teliti {
@@ -2543,8 +2553,10 @@ a:hover {
   color: #002868;
   font-family: "ssproBold";
   padding-right: 1px;
+  margin-right: 5px;
 }
 .newYork {
+  margin-right: 5px;
   position: absolute;
   top: 1240px;
   font-size: 18px;
