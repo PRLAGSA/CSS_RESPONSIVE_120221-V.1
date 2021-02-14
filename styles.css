@@ -2108,17 +2108,19 @@ color: #002868;
   position: absolute;
   right: 0px;
   width: 290px;
-  height: 400px;
+  height: 600px;
   margin: 0px;
   padding-top: 0px;
   background-color: rgb(255, 255, 255);
   z-index: 20;
   top: 0px;
+   background: #F8F8F8;
 }
 
 #arrowLeftMobile {
 
 margin-top: 10px;
+margin-left: 10px;
  
 }
 
@@ -2133,6 +2135,17 @@ margin-top: 10px;
  font-family: Source Sans Pro;
 font-style: normal;
 font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #002868;
+}
+#epistrofiMobileMenuItems_items {
+ padding-top: 10px;
+padding-left: 20px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
 font-size: 14px;
 line-height: 18px;
 color: #002868;
