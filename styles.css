@@ -2089,7 +2089,7 @@ color: #002868;
 .flagMobileMenu {
   width: 28px;
   height: 20px;
-  padding-top: 5px;
+  margin-top: 10px;
   z-index: 10;
 }
 .downArrow {
@@ -2104,6 +2104,7 @@ color: #002868;
 
 #sideMenuTWO {
   display: none;
+  flex-direction: row;
   position: absolute;
   right: 0px;
   width: 290px;
@@ -2115,6 +2116,27 @@ color: #002868;
   top: 0px;
 }
 
+#arrowLeftMobile {
+
+margin-top: 10px;
+ 
+}
+
+#epistrofiMobile {
+  display: flex;
+}
+
+#epistrofiText {
+ margin: 0px;
+ padding: 0px;
+ padding-top: 12px;
+ font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #002868;
+}
 
 /*----------------------------------SECOND TRY------------------------------------------*/
 
