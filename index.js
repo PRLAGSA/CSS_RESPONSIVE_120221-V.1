@@ -1,5 +1,5 @@
 function burgerOpen() {
-  var x = document.getElementById("sideMenuOne");
+  var x = document.getElementById("plateMain");
   if (x.style.display === "none" || x.style.display == "") {
     x.style.display = "block";
   } else {
@@ -8,7 +8,7 @@ function burgerOpen() {
 }
 
 function sideMenuClose() {
-  var x = document.getElementById("sideMenuOne");
+  var x = document.getElementById("plateMain");
   if (x.style.display === "none" || x.style.display == "") {
     x.style.display = "block";
   } else {

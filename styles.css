@@ -612,7 +612,7 @@ display: none;
 
   .pan {
     display: flex;
-    
+    z-index: 1;
     position: absolute;
     top: 120px;
     padding-left: 3px;
@@ -1987,11 +1987,89 @@ display: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #979797;
+ background: #F8F8F8;
   width: 300px;
   height: 45px;
   z-index: 10;
 }
+
+.barTwo {
+  display: flex;
+ justify-content: center;
+  margin-top: 11px;
+  align-items: center;
+ background: #ffffff;
+  width: 300px;
+  height: 34px;
+  z-index: 10;
+  border-bottom: 1PX solid #eeeeee;
+}
+
+.barMENU {
+display: grid;
+margin: 0 auto;
+margin-top: 10px;
+width: 270px;
+height: 258px;
+z-index: 10;
+background-color: rgba(255, 0, 0, 0);
+margin-left: 20px;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginContainer img{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  padding-top: 4px;
+}
+
+.loginMobileText {
+ 
+height: 18px;
+left: 34.67%;
+right: 25.67%;
+
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+color: #002868;
+}
+
+.titleMobile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#titleTextMobile {
+  font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* color: #BF0A30; */
+color: #002868;
+}
+#titleTextMobile:hover {
+ color: #BF0A30; 
+ cursor: pointer;
+}
+
+#darkRightArrow {
+  width:20px;
+  height: 20px;
+  margin-right: 0px;
+}
+
 
 .flagAndArrow {
   display: flex;
@@ -2003,7 +2081,7 @@ display: none;
   padding: 0px;
   margin: 0px;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
   top: 10px;
   z-index: 10;
 }
@@ -2011,13 +2089,13 @@ display: none;
 .flagMobileMenu {
   width: 28px;
   height: 20px;
-  padding-top: 13px;
+  padding-top: 5px;
   z-index: 10;
 }
 .downArrow {
   width: 14px;
   height: 14px;
-  padding-top: 15px;
+  padding-top: 7px;
   margin-left: 4px;
   margin-right: 10px;
   z-index: 10;
@@ -2036,15 +2114,36 @@ display: none;
   z-index: 20;
   top: 0px;
 }
-#sideMenuTHREE {
+
+
+/*----------------------------------SECOND TRY------------------------------------------*/
+
+#plateMain {
   display: none;
   width: 320px;
-  height: 520px;
-  background-color: red;
+  height: 600px;
   position: absolute;
-  z-index: 8;
   right: 0px;
+  z-index: 10;
+  background-color:#979797
 }
+#plateMainOne{
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+}
+/*----------------------------------SECOND TRY  END-----------------------------------------*/
+
+
+
+
+
+
+
+
 
 /* .apostoli {
   position: absolute;
