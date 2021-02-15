@@ -3714,3 +3714,492 @@ a:hover {
     font-family: "ssproBold";
   }
 }
+
+/*------------------------------------------33333333333333333333333333333333333333333333333333----------------------------------------------------*/
+
+@media (min-width: 640px) {
+  .WrapONE {
+    height: 650px;
+    margin-top: 780px;
+    background-color: #002868;
+  }
+  .symbol {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+  .symbolAndErga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  }
+  .erga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+
+  .theContent {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    height: 350px;
+    background-color: rgba(0, 0, 197, 0);
+  }
+
+  .PlaceOne {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 350px;
+    width: 150px;
+    margin-right: 3px;
+  }
+  .PlaceOneLAST {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 350px;
+    width: 150px;
+    margin-right: 0px;
+  }
+  .ImageSize {
+    width: 150px;
+    height: 105px;
+  }
+  .PlaceTitle {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .PlaceTextContent {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .button_icon {
+    display: flex;
+    margin-top: 2px;
+    width: 150px;
+    height: 46px;
+    background-color: rgba(255, 99, 71, 0);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  .more {
+    padding-top: 11px;
+    font-size: 13px;
+    color: white;
+    font-family: "ssproBold";
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .KOUMPI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 199px;
+    height: 50px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 970px) {
+  .WrapONE {
+    height: 650px;
+    margin-top: 200px;
+    background-color: #002868;
+  }
+  .symbol {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+  .symbolAndErga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  }
+  .erga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+
+  .theContent {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 413px;
+    background-color: rgba(0, 0, 197, 0);
+  }
+
+  .PlaceOne {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 413px;
+    width: 220px;
+  }
+  .PlaceOneLAST {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 413px;
+    width: 220px;
+  }
+  .ImageSize {
+    width: 220px;
+    height: 155px;
+  }
+  .PlaceTitle {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .PlaceTextContent {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .button_icon {
+    display: flex;
+    margin-top: 2px;
+    width: 150px;
+    height: 46px;
+    background-color: rgba(255, 99, 71, 0);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  .more {
+    padding-top: 11px;
+    font-size: 14px;
+    color: white;
+    font-family: "ssproBold";
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .KOUMPI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 199px;
+    height: 50px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1280px) {
+  .WrapONE {
+    height: 650px;
+    margin-top: 200px;
+    background-color: #002868;
+  }
+  .symbol {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+  .symbolAndErga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  }
+  .erga {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+
+  .theContent {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    width: 1260px;
+    height: 413px;
+    background-color: rgba(25, 25, 112, 0);
+  }
+
+  .PlaceOne {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 413px;
+    width: 300px;
+  }
+  .PlaceOneLAST {
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
+    height: 413px;
+    width: 300px;
+  }
+  .ImageSize {
+    width: 300px;
+    height: 200px;
+  }
+  .PlaceTitle {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .PlaceTextContent {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .button_icon {
+    display: flex;
+    margin-top: 2px;
+    width: 150px;
+    height: 46px;
+    background-color: rgba(255, 99, 71, 0);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  .more {
+    padding-top: 11px;
+    font-size: 14px;
+    color: white;
+    font-family: "ssproBold";
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .KOUMPI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 199px;
+    height: 50px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  /* .MainGrid {
+    position: relative;
+    margin-top: 200px;
+    height: 650px;
+    background-color: #002868;
+    padding: 0 100px;
+    /* margin-top: 10px; */
+  /*}
+  .top {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+  }
+  .top_title {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: "ssproBold";
+    font-weight: bold;
+  }
+
+  .containerPLACES {
+    display: flex;
+    justify-content: center;
+
+    top: 80px;
+    position: relative;
+  }
+
+  .PlaceOne {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  .PlaceLast {
+    display: grid;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20;
+    background-color: #ab0427;
+  }
+
+  .PlaceContainerMain {
+    display: grid;
+  }
+
+  .titleOne {
+    width: 300px;
+    top: 339px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: "ssproBold";
+    height: 60px;
+    margin-top: 20px;
+  }
+  .lorem {
+    width: 300px;
+    top: 411px;
+    line-height: 25px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: white;
+    font-family: "ssproReg";
+  }
+
+  .button_icon {
+    display: flex;
+    margin-top: 2px;
+    width: 150px;
+    height: 46px;
+    background-color: rgba(255, 99, 71, 0);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  .more {
+    padding-top: 11px;
+    font-size: 14px;
+    color: white;
+    font-family: "ssproBold";
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .lastt {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    top: 562px;
+    position: relative;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    color: white;
+    letter-spacing: 0.5px;
+    background-color: rgba(104, 74, 74, 0);
+    margin: 0 auto;
+    width: 198px;
+    height: 48px;
+    border: 1px solid white;
+    border-radius: 4px;
+  } */
+}
