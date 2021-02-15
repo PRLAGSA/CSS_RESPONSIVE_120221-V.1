@@ -3755,9 +3755,13 @@ a:hover {
   margin-top: 42px;
   display: flex;
   justify-content: space-between;
-  width: 260px;
-  height: 403px;
+  /* width: 300px; */
+  height: 433px;
   background-color: rgba(62, 197, 0, 0);
+  overflow-x: auto;
+}
+.theContentMOBILE::-webkit-scrollbar {
+  width: 0px;
 }
 .theContent {
   margin-top: 42px;
@@ -3781,6 +3785,7 @@ a:hover {
   height: 403px;
   width: 260px;
   margin-right: 3px;
+  margin-left: 20px;
 }
 
 .ImageSize {
