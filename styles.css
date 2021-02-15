@@ -4181,6 +4181,65 @@ a:hover {
 
     color: #ffffff;
   }
+
+  /*--------------------------------------------MENU CONTENT HOVER CSS-----------------------------------------------------*/
+
+  .content {
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 271px;
+    padding-top: 6px;
+    width: 275px;
+    height: 359px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    z-index: 6;
+  }
+
+  .menu:hover .content {
+    display: block;
+    z-index: 7;
+  }
+
+  .keno {
+    display: flex;
+    flex-direction: grid;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0);
+    top: -40px;
+    left: -0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hoverItems {
+    text-align: left;
+    background-color: rgba(110, 20, 20, 0);
+    left: 0px;
+    top: 0px;
+    position: relative;
+    z-index: 2;
+    width: 255px;
+    top: -40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    height: 18px;
+    font-family: "ssproBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #002868;
+  }
+
+  .hoverItems:hover {
+    color: #bf0a30;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -4311,6 +4370,66 @@ a:hover {
 
     color: #ffffff;
   }
+
+  /*--------------------------------------------MENU CONTENT HOVER CSS-----------------------------------------------------*/
+
+  .content {
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 271px;
+    padding-top: 6px;
+    width: 275px;
+    height: 359px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    z-index: 6;
+  }
+
+  .menu:hover .content {
+    display: block;
+    z-index: 7;
+  }
+
+  .keno {
+    display: flex;
+    flex-direction: grid;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0);
+    top: -40px;
+    left: -0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hoverItems {
+    text-align: left;
+    background-color: rgba(110, 20, 20, 0);
+    left: 0px;
+    top: 0px;
+    position: relative;
+    z-index: 2;
+    width: 255px;
+    top: -40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    height: 18px;
+    font-family: "ssproBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #002868;
+  }
+
+  .hoverItems:hover {
+    color: #bf0a30;
+  }
+
   /* .MainGrid {
     position: relative;
     margin-top: 200px;
