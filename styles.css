@@ -4969,7 +4969,7 @@ a:hover {
 .apostoliNEW img {
   display: flex;
   padding-left: 95px;
-  margin-top: 1px;
+  margin-top: 0px;
   background-color: rgba(255, 0, 0, 0);
   position: absolute;
 }
