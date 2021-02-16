@@ -4656,6 +4656,325 @@ a:hover {
   color: #ffffff;
 }
 
+/*-------------------------------------------MOBILE------------------CONTACT FORM ------------------------------------*/
+.contactForm {
+  display: grid;
+  width: 320px;
+  height: 457px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-bottom: 1px solid #eeeeee;
+  background-color: rgba(47, 79, 79, 0);
+}
+
+.contactTopTitle {
+  position: absolute;
+  width: 320px;
+  height: 15px;
+  margin: 0 auto;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #eeeeee;
+  color: #002868;
+}
+
+.imputContainer {
+  display: grid;
+  width: 320px;
+  height: 378px;
+  top: 52px;
+  left: 0px;
+  position: relative;
+  border: 1px solid white;
+  background-color: rgba(143, 188, 143, 0);
+}
+
+.name {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+}
+
+.nameInput {
+  width: 320px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.nameAreaWrapper {
+  width: 210px;
+  height: 46px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 10px;
+}
+
+.nameArea {
+  width: 250px;
+  height: 25px;
+  top: 10.5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: none;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+/*////////////--TELEPHONE--/////////////*/
+
+.telephone {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.telephoneInput {
+  width: 320px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.telephoneAreaWrapper {
+  display: flex;
+  width: 190px;
+  height: 46px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 31px;
+}
+
+.telephoneArea {
+  width: 250px;
+  height: 25px;
+  top: 9px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+
+.telephoneICON {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 10px;
+  position: absolute;
+  top: 117px;
+  margin-right: 5px;
+}
+/*---------------------------------------------------EMAIL-------------------------------------------*/
+
+.email {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.emailInput {
+  width: 320px;
+  height: 46px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.emailAreaWrapper {
+  display: flex;
+  width: 210px;
+  padding-left: 21px;
+  height: 46px;
+  background-color: rgba(184, 23, 23, 0);
+  margin-left: 10px;
+}
+
+.emailArea {
+  width: 250px;
+  height: 25px;
+  top: 9px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+
+.emailICON {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/folder_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 9px;
+  margin-top: 14px;
+  position: absolute;
+  margin-right: 0px;
+}
+
+/*///////////////////////////////////////////////////MESSAGE//////////////////////////////////*/
+
+.message {
+  position: relative;
+  width: 240px;
+  height: 15px;
+  left: 0px;
+  top: -1.5px;
+  margin-bottom: 5.5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: rgba(198, 206, 187, 0);
+  letter-spacing: -0.15px;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.messageInput {
+  width: 320px;
+  height: 119px;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.messageAreaWrapper {
+  display: flex;
+  width: 300;
+  padding-left: 0px;
+  height: 46px;
+  background-color: rgba(58, 23, 184, 0);
+  margin-left: 10px;
+}
+
+.messageArea {
+  width: 250px;
+  height: 25px;
+  top: 11px;
+  position: relative;
+  background-color: rgba(216, 19, 19, 0);
+  border-style: none;
+  border: 0px;
+  outline: 0.5px;
+  outline-color: rgb(0, 153, 255);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+.newButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 82px;
+  margin-top: 100px;
+  color: white;
+  background-color: #bf0a30;
+  width: 240px;
+  height: 50px;
+  border-radius: 4px;
+  /* border: 1px solid red; */
+}
+.apostoliNEW {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.apostoliNEW img {
+  display: flex;
+  padding-left: 195px;
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+}
+.lefkoArrow {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+
 @media (min-width: 480px) {
   /*---------------------------------------------------START CONTACT FORM----------------------------------------------*/
 
@@ -4939,10 +5258,47 @@ a:hover {
     padding: 0px;
     margin: 0px;
   }
+  .newButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 218px;
+    margin-top: 100px;
+    color: white;
+    background-color: #bf0a30;
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    /* border: 1px solid red; */
+  }
+  .apostoliNEW {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .apostoliNEW img {
+    display: flex;
+    padding-left: 195px;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+  }
+  .lefkoArrow {
+    display: flex;
+    width: 24px;
+    height: 24px;
+  }
 
   /*----------------------------------------/////////////////////BUTTON//////////////////////////------------------------------*/
 
-  .container_button {
+  /* .container_button {
     width: 1460px;
     height: 50px;
     margin: 0 auto;
@@ -4961,8 +5317,6 @@ a:hover {
     position: relative;
     background-color: #bf0a30;
     cursor: pointer;
-
-    /*------------------*/
   }
   .arrowSend {
     position: absolute;
@@ -4992,196 +5346,7 @@ a:hover {
 
     line-height: 18px;
     cursor: pointer;
-  }
-}
-
-@media (min-width: 970px) {
-  .KOUMPI_MOBILE {
-    display: none;
-  }
-  .theContentMOBILE {
-    display: none;
-  }
-  .WrapONE {
-    /* display: grid; */
-    height: 650px;
-    margin-top: 200px;
-    background-color: #002868;
-  }
-  .symbol {
-    display: grid;
-    justify-content: center;
-    position: relative;
-    top: 0px;
-    letter-spacing: 2px;
-    color: white;
-    font-size: 12px;
-    font-family: "ssproBold";
-    font-weight: bold;
-  }
-  .symbolAndErga {
-    display: grid;
-    justify-content: center;
-    position: relative;
-    top: 40px;
-  }
-  .erga {
-    display: grid;
-    justify-content: center;
-    position: relative;
-    top: 10px;
-    letter-spacing: 2px;
-    color: white;
-    font-size: 12px;
-    font-family: "ssproBold";
-    font-weight: bold;
-  }
-
-  .theContent {
-    margin-top: 42px;
-    display: flex;
-    justify-content: space-between;
-    width: 920px;
-    height: 413px;
-    background-color: rgba(0, 0, 197, 0);
-  }
-
-  .PlaceOne {
-    display: grid;
-    background-color: rgba(255, 0, 0, 0);
-    height: 413px;
-    width: 220px;
-  }
-  .PlaceOneLAST {
-    display: grid;
-    background-color: rgba(255, 0, 0, 0);
-    height: 413px;
-    width: 220px;
-  }
-  .ImageSize {
-    width: 220px;
-    height: 155px;
-  }
-  .PlaceTitle {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-
-  .PlaceTextContent {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 25px;
-    color: #ffffff;
-  }
-
-  .button_icon {
-    display: flex;
-    margin-top: 2px;
-    width: 150px;
-    height: 46px;
-    background-color: rgba(255, 99, 71, 0);
-  }
-
-  .icon {
-    width: 24px;
-    height: 24px;
-    padding-top: 8px;
-    padding-left: 5px;
-  }
-
-  .more {
-    padding-top: 11px;
-    font-size: 14px;
-    color: white;
-    font-family: "ssproBold";
-    font-weight: bold;
-    margin-left: 5px;
-  }
-
-  .KOUMPI {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 28px;
-    width: 199px;
-    height: 50px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    border-radius: 4px;
-    border: 1px solid white;
-    text-align: center;
-
-    color: #ffffff;
-  }
-
-  /*--------------------------------------------MENU CONTENT HOVER CSS-----------------------------------------------------*/
-
-  .content {
-    position: absolute;
-    display: none;
-    top: 70px;
-    left: 271px;
-    padding-top: 6px;
-    width: 275px;
-    height: 359px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
-    border-radius: 4px;
-    z-index: 6;
-  }
-
-  .menu:hover .content {
-    display: block;
-    z-index: 7;
-  }
-
-  .keno {
-    display: flex;
-    flex-direction: grid;
-    width: 130px;
-    height: 40px;
-    background-color: rgba(255, 0, 0, 0);
-    top: -40px;
-    left: -0px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .hoverItems {
-    text-align: left;
-    background-color: rgba(110, 20, 20, 0);
-    left: 0px;
-    top: 0px;
-    position: relative;
-    z-index: 2;
-    width: 255px;
-    top: -40px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    height: 18px;
-    font-family: "ssproBold";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    color: #002868;
-  }
-
-  .hoverItems:hover {
-    color: #bf0a30;
-  }
+  } */
 }
 
 @media (min-width: 640px) {
@@ -5598,12 +5763,24 @@ a:hover {
   }
 
   /*----------------------------------------/////////////////////BUTTON//////////////////////////------------------------------*/
-
+  .newButton {
+    margin-left: 387px;
+    margin-top: 100px;
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .container_button {
-    width: 1460px;
+    /* width: 1460px; */
     height: 50px;
     margin: 0 auto;
     margin-top: 21px;
+    position: relative;
     border: 0px;
     background-color: rgba(54, 128, 25, 0);
   }
@@ -5613,9 +5790,11 @@ a:hover {
     width: 240px;
     height: 50px;
     margin-top: 21px;
-    left: 799px;
+    /* left: 799px; */
     border-radius: 4px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #bf0a30;
     cursor: pointer;
 
@@ -6125,7 +6304,6 @@ a:hover {
   /*----------------------------------------/////////////////////BUTTON//////////////////////////------------------------------*/
 
   .container_button {
-    width: 1460px;
     height: 50px;
     margin: 0 auto;
     margin-top: 21px;
@@ -6133,14 +6311,26 @@ a:hover {
     background-color: rgba(54, 128, 25, 0);
   }
 
+  .newButton {
+    margin-left: 439px;
+    margin-top: 100px;
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
   .apostoliButtom {
     display: flex;
     width: 240px;
     height: 50px;
     margin-top: 21px;
-    left: 799px;
+    /* margin-right: 40px; */
     border-radius: 4px;
-    position: relative;
+
     background-color: #bf0a30;
     cursor: pointer;
 
