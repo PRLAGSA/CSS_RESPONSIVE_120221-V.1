@@ -4456,7 +4456,7 @@ a:hover {
 /*------------------------------------------33333333333333333333333333333333333333333333333333----------------------------------------------------*/
 
 .WrapONE {
-  height: 650px;
+  height: 680px;
   margin-top: 650px;
   background-color: #002868;
 }
@@ -4662,7 +4662,7 @@ a:hover {
   width: 320px;
   height: 457px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 112px;
   border-bottom: 1px solid #eeeeee;
   background-color: rgba(47, 79, 79, 0);
 }
@@ -4672,6 +4672,7 @@ a:hover {
   width: 320px;
   height: 15px;
   margin: 0 auto;
+
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
@@ -4983,7 +4984,7 @@ a:hover {
     width: 490px;
     height: 457px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 112px;
     border-bottom: 1px solid #eeeeee;
     background-color: rgba(47, 79, 79, 0);
   }
